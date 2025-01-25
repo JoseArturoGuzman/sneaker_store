@@ -29,7 +29,7 @@ class _ShopIntroScreenState extends State<ShopIntroScreen> {
         onTabChange: (index) => navigateBottomBar(index),
       ),
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.grey[300],
         elevation: 0,
         leading: Builder(builder: (context) {
           return IconButton(

@@ -10,7 +10,7 @@ class BottomNavBar extends StatelessWidget { // 1. Cambia a StatelessWidget
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 20),
       child: GNav(
-        color: Colors.grey[400],
+        color: Colors.grey[900],
         activeColor: Colors.grey.shade700,
         tabActiveBorder: Border.all(color: Colors.white),
         tabBackgroundColor: Colors.grey.shade100,
